@@ -205,7 +205,7 @@ const VEHICLE_PROFILES = {
 
 const PROFILE_DEFAULTS = {
   atto3: { title: "BYD ATTO 3", entity_prefix: "byd_atto_3" },
-  atto3Evo: { title: "BYD ATTO 3 Evo", entity_prefix: "byd_atto_3_evo" },
+  atto3Evo: { title: "BYD ATTO 3 Evo", entity_prefix: "byd_atto_3" },
   seal: { title: "BYD SEAL", entity_prefix: "byd_seal" },
   dolphin: { title: "BYD DOLPHIN", entity_prefix: "byd_dolphin" },
   sealion7: { title: "BYD SEALION 7", entity_prefix: "byd_sealion_7" },
