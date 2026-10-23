@@ -1153,6 +1153,25 @@ const ALERT_I18N = {
     alert_srs: "SRS",
     alert_svs: "SVS",
   },
+  es: {
+    alert_header: "Aviso del vehículo",
+    alert_header_single: "Aviso en el vehículo",
+    alert_tire_pressure_low: "Presión de neumáticos baja",
+    alert_tire_pressure_critical: "Presión de neumáticos crítica",
+    alert_system_fault: "Fallo del sistema",
+    front_left: "Delantero izquierdo",
+    front_right: "Delantero derecho",
+    rear_left: "Trasero izquierdo",
+    rear_right: "Trasero derecho",
+    rapid_tire_leak: "Pérdida rápida de presión",
+    alert_tpms: "TPMS",
+    alert_abs: "ABS",
+    alert_brake: "Frenos",
+    alert_steering: "Dirección",
+    alert_charging: "Carga",
+    alert_srs: "SRS",
+    alert_svs: "SVS",
+  },
   ru: {
     alert_header: "Предупреждение авто",
     alert_header_single: "Предупреждение в авто",
@@ -6195,6 +6214,7 @@ class Byd3DCardEditor extends HTMLElement {
       { key: "fr", label: "Français", flag: "🇫🇷" },
       { key: "ca", label: "Català", flag: "🇦🇩" },
       { key: "it", label: "Italiano", flag: "🇮🇹" },
+      { key: "es", label: "Español", flag: "🇪🇸" },
     ];
     return langs
       .map((lang) => {
